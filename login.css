@@ -1,0 +1,146 @@
+
+header .container{
+height: initial!important ;
+}
+.container-flex{
+  height: initial!important;
+}
+
+.container1 {
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    flex-direction: column;
+    background-color: white;
+    min-height: 100vh;
+  }
+  .box {
+     margin-top: 30px;
+    width: 650px;
+    height: 450px;
+    font-size: 16px;
+    padding: 40px 40px;
+    background: rgb(51, 90, 33);
+    box-shadow: 2px 4px 8px 2px black;
+    border-radius: 50px;
+  }
+  
+  .user {
+    margin-top: 50px;
+  }
+  
+  .fas {
+    position: absolute;
+    left: 210px ;
+    padding-top: 16px;
+  }
+  input {
+    width: 80%;
+    margin-bottom: 25px;
+    padding: 10px 30px 10px;
+    font-size: 18px;
+    border-radius: 20px;
+    border-bottom: 1px solid black;
+    outline: none;
+    background-color: white;
+    color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ 
+  }
+  input:focus {
+    border-bottom: 1px solid #e9af10;
+  }
+  .reset-password {
+    color: orange;
+    text-align: right;
+    margin-top: 0px;
+    font-size: 14px;
+  }
+  .reset-password:hover {
+    color: rgb(226, 97, 65);
+  
+  }
+  .login-btn {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .btn {
+    display: block!important;
+    width: 80%!important;
+    padding: 15px!important;
+    background-color: #000!important;
+    color: #fff!important;
+    border: none!important;
+    border-radius: 20px!important;
+    font-size: 20px!important;
+    font-weight: 600!important;
+    opacity: 0.8!important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)!important;
+  }
+  .btn:hover{
+      opacity: 1;
+  }
+  .signup span{
+      color: #7fb8e6;
+  }
+  .signup span:hover{
+      color: #3793df;
+  }
+
+
+  
+/* MEDIA TU SĄ*/
+@media(max-width:820px){
+  .box{
+    margin-top: 30px;
+    width: 350px;
+    height: 450px;
+    font-size: 16px;
+    padding: 20px 20px;
+  }
+  .box h1{
+    font-size: 32px;
+    text-align: center;
+  }
+  /* .signup{
+    height: 480px;
+  } */
+  nav .menu-anchor{
+    font-size:10px ;
+  }
+
+}
+
+@media(max-width:760px){
+  .box h1{
+    margin-top: 50px;
+  }
+  .menu-item{
+    margin: 0!important;
+  }
+  .site-title-title{
+    font-size: 18px;
+    
+  }
+  .menu{
+    margin: initial!important;
+  }
+}
+
+@media(max-width:440px){
+  .box{
+    width: 300px;
+    padding-top: 70px;
+  }
+  .box h1{
+    margin-top: 30px;
+  }
+}
