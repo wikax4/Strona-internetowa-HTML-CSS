@@ -6,9 +6,10 @@ document.querySelectorAll(".carousel").forEach((carousel) => {
 
   carousel.insertAdjacentHTML(
     "beforeend",
+    // łaćzenie stringa z niestringiem , można użyć też `+buttonsHtml.join("")+`
     `
 		<div class="carousel__nav">
-			${buttonsHtml.join("")}
+			${buttonsHtml.join("")} 
 		</div>
 	`
   );

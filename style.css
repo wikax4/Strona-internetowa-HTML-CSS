@@ -183,9 +183,7 @@ body {
   /* nowe slider karuzelka */
   .carousel {
     position: relative;
- 
-   
- 
+
 }
 .carousel > h1 {
   text-align: center;
@@ -229,7 +227,7 @@ body {
 
     border-radius: 50%;
     margin: 0 5px;
-    cursor: pointer;
+    cursor:pointer;
 }
 
 .carousel__button--selected {
@@ -469,25 +467,7 @@ display: inline;
       order: -2;
     }
   
-    /* <-------recent-------> */
-  
-    .article-recent-main {
-      width: 70%;
-    }
-  
-    .article-recent-secondary {
-      width: 28%;
-    }
-  
-    .article-recent-secondary img {
-      min-height: 250px;
-      object-fit: cover;
-    }
-  
-    .article-recent-info {
-      margin-top: 1.5em;
-    }
-  
+
     /* <-------ASIDE-------> */
     .about-us,
     .recent-posts {
